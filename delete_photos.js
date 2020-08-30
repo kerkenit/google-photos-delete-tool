@@ -6,7 +6,7 @@ const maxImageCount = "ALL_PHOTOS";
 // Selector for Images and buttons
 const ELEMENT_SELECTORS = {
     checkboxClass: '.ckGgle',
-    deleteButton: 'button[title="Delete"]',
+    deleteButton: 'button[title="Verwijderen"]',
     confirmationButton: '#yDmH0d > div.llhEMd.iWO5td > div > div.g3VIld.V639qd.bvQPzd.oEOLpc.Up8vH.J9Nfi.A9Uzve.iWO5td > div.XfpsVe.J9fJmf > button.VfPpkd-LgbsSe.VfPpkd-LgbsSe-OWXEXe-k8QpJ.nCP5yc.kHssdc.HvOprf'
 }
 
@@ -16,7 +16,7 @@ const TIME_CONFIG = {
     press_button_delay: 1000
 };
 
-const MAX_RETRIES = 10;
+const MAX_RETRIES = 50;
 
 let imageCount = 0;
 
